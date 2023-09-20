@@ -1,11 +1,13 @@
 ---
-title: "My Presentation Title"
-subtitle: "A template file for Quarto revealjs slides"
 author: "Rhian Davies"
 format: statsrhian-revealjs
 ---
 
-# In the morning
+## Title {.pencil-title}
+
+### Rhian Davies
+
+# In the morning 
 
 ## Getting up
 
