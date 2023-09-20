@@ -25,6 +25,7 @@ $body-color: $theme-blue;
 .pencil-title {
   &:is(.slide-background) {
     background-image: url('../../../../../assets/title.jpeg');
+    background-size: cover;
   }
 
   h2 {
