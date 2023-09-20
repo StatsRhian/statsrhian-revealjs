@@ -1,9 +1,8 @@
 ---
-title: "Statsrhian-revealjs Example"
-format:
-  revealjs: default
-revealjs-plugins:
-  - statsrhian-revealjs
+title: "My Presentation Title"
+subtitle: "A template file for Quarto revealjs slides"
+author: "Rhian Davies"
+format: statsrhian-revealjs
 ---
 
 # In the morning

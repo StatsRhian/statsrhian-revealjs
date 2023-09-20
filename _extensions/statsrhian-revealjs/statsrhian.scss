@@ -1,0 +1,83 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.cdnfonts.com/css/itc-benguiat-std');
+
+$theme-black: #1e0707;
+$theme-red: #ff1515;
+$theme-blue: #3a5fe5;
+$theme-green: #073e1e;
+$theme-purple: #1e193c;
+$theme-white: #ffffff;
+
+$body-bg: $theme-black;
+$link-color: $theme-white;
+$code-color: $theme-red;
+$body-color: $theme-red;
+$presentation-heading-color: $theme-white;
+$presentation-heading-font: 'ITC Benguiat Std', sans-serif;
+$font-family-sans-serif: 'ITC Benguiat Std', sans-serif;
+$code-block-font-size: 0.8em;
+/*-- scss:rules --*/
+
+.reveal div.sourceCode {
+  border: unset !important;
+}
+
+div.sourceCode {
+  background-color: unset !important;
+}
+
+.curly {
+  font-family: 'Ingrid Darling', cursive;
+  font-size: 2em;
+}
+
+.center-v {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+@mixin center-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+@mixin background-full {
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.theme-title {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/title.png');
+    @include background-full;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 3em;
+  }
+  h3 {
+    text-align: center;
+    font-size: 2em;
+  }
+}
+
+.theme-section1 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/section1.png');
+    @include background-full;
+  }
+}
+
+.theme-section2 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/section2.png');
+    @include background-full;
+  }
+}
+
+
+
