@@ -1,6 +1,9 @@
 ---
 author: "Rhian Davies"
-format: statsrhian-revealjs
+format:
+  statsrhian-revealjs:
+    self-contained: true
+    footer: "{{< fa house-user >}} [rhian.rbind.io](rhian.rbind.io) \t  {{< fa brands mastodon >}} {{< fa brands twitter >}} {{< fa brands linkedin >}} [statsrhian](https://fosstodon.org/@statsrhian)"
 ---
 
 ## Title {.pencil-title}
