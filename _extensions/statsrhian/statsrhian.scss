@@ -39,6 +39,10 @@ $body-color: $theme-blue;
   }
 }
 
+.img .circular{
+  border-radius: 50%;
+}
+
 .reveal .footer {
   color: $theme-black;
   font-family: $font-family-sans-serif;

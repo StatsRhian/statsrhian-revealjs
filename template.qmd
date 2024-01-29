@@ -1,9 +1,5 @@
 ---
-author: "Rhian Davies"
-format:
-  statsrhian-revealjs:
-    self-contained: true
-    footer: "{{< fa house-user >}} [rhian.rbind.io](rhian.rbind.io) \t  {{< fa brands mastodon >}} {{< fa brands twitter >}} {{< fa brands linkedin >}} [statsrhian](https://fosstodon.org/@statsrhian)"
+format: statsrhian-revealjs
 ---
 
 ## Title {.pencil-title}
@@ -13,6 +9,10 @@ format:
 # In the morning 
 
 ## Getting up
+
+::: .img .circular
+![](title.jpeg){fig-align="center" fig-alt="STOR-i logo"}
+:::
 
 - Turn off alarm
 - Get out of bed
@@ -33,3 +33,5 @@ format:
 
 - Get in bed
 - Count sheep
+
+

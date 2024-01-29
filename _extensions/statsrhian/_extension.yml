@@ -8,3 +8,6 @@ contributes:
       width: 1280
       height: 720
       code-line-numbers: false
+      self-contained: true
+      logo: ../../../../../assets/letter-R.png
+      footer: "{{< fa house-user >}} [rhian.rbind.io](rhian.rbind.io) \t  {{< fa brands mastodon >}} {{< fa brands twitter >}} {{< fa brands linkedin >}} [statsrhian](https://fosstodon.org/@statsrhian)"
